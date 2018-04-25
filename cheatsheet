@@ -1,0 +1,30 @@
+git --no-pager log --pretty=format:"%H"
+<https://git-scm.com/docs/pretty-formats>
+
+----
+
+git rebase -i <hash>^
+git rebase -i --root
+git rebsae -i --keep-empty
+
+drop / reword / reorder / squash / fixup
+---
+
+General git rebase - <https://git-scm.com/docs/git-rebase>
+
+---
+
+git show <hash_before_rebase>
+git show <hash_after_rebase>
+
+---
+
+Show GitHub Flow / Show existing GitHub repository & some PRs
+
+---
+
+Some good practices
+
+
+- gitconfig of Haralan
+- Redefined GitHub extension
